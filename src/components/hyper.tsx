@@ -8,7 +8,7 @@ import resume from "../assets/HAITAM_ELGHARRAS.pdf";
 export default function Hyper() {
   return (
     <div className="flex flex-col items-center justify-center h-screen from-[#6b7280] to-[#1e293b] text-white">
-      <div className="relative w-[600px] h-[600px] bg-[#576ee0] rounded-full shadow-[0_0_35px_rgba(0,10,0,0.4)] transition-shadow duration-300 hover:shadow-[0_0_50px_rgba(0,0,0,0.5)]">
+      <div className="relative w-[550px] h-[550px] bg-[#576ee0] rounded-full shadow-[0_0_35px_rgba(0,10,0,0.4)] transition-shadow duration-300 hover:shadow-[0_0_50px_rgba(0,0,0,0.5)]">
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
         <BlobSVG x="0" y="-70" href={img} />
           <h2 className="text-3xl font-bold mb-2">Haitam Elgharras</h2>
@@ -18,7 +18,7 @@ export default function Hyper() {
           </p>
         </div>
         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-          <div className="relative w-[700px] h-[700px]">
+          <div className="relative w-[600px] h-[600px]">
             <div className="absolute top-0 left-0 w-full h-full">
               <a
                 className="group absolute top-0 left-1/2 transform -translate-x-1/2 w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#0284c7] transition-colors duration-300"
