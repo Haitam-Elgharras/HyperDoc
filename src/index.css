@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home__blob {
+  width: 200px;
+  fill: var(--first-color);
+}
+
+@media screen and (min-width: 768px){
+  .home__blob {
+    width: 270px;
+  }
+  .home__blob-img {
+    transform: translate(-35px, -60px);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .home__blob {
+    width: 320px;
+  }
+  .home__blob-img {
+    transform: translate(-60px, -85px);
+  }
+}
