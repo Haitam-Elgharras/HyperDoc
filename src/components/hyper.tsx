@@ -2,6 +2,8 @@ import HyperItem from "./hyperItem"
 import BlobSVG from "./BlobSVG"
 import img from "../assets/prfl.png";
 import resume from "../assets/HAITAM_ELGHARRAS.pdf";
+import coverLetter from "../assets/Haitam_elgharras_cover_letter.pdf";
+import { Link } from "react-router-dom";
 
 
 
@@ -49,17 +51,18 @@ export default function Hyper() {
                 <HyperItem name="Resume" />
 
               </a>
-              <a
+              <Link
                 className="group absolute bottom-1/4 left-0 w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#0284c7] transition-colors duration-300"
-                href="#"
+                to={"/essays"}
               >
-                <HyperItem name="Attachments" />
-              </a>
+                <HyperItem name="Essays" />
+              </Link>
               <a
-                className="group absolute top-1/4 left-0 w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#0284c7] transition-colors duration-300"
-                href="#"
+                className="group absolute text-center top-1/4 left-0 w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-lg hover:bg-[#0284c7] transition-colors duration-300"
+                href={coverLetter}
+                target="_blank"
               >
-                <HyperItem name="Projects" />
+                <HyperItem name="Cover Letter" />
               </a>
             </div>
           </div>
